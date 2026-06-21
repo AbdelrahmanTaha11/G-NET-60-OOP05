@@ -31,6 +31,41 @@
 
 
             #endregion
+
+            #region Question02
+            //Q2 : Look at the following code and answer the questions below:
+
+      /*// a)
+           // The problem is that both interfaces contain a method named Greet().
+           // Currently, the Translator class provides only one implementation,
+           // so both IEnglishSpeaker.Greet() and IArabicSpeaker.Greet()
+           // use the same method and cannot have different behaviors.
+                
+      // b)
+        // The solution is to use Explicit Interface Implementation.
+        //
+        // Example:
+        // void IEnglishSpeaker.Greet() => Console.WriteLine("Hello");
+        // void IArabicSpeaker.Greet() => Console.WriteLine("Ahlan");
+        //
+        // This technique is called Explicit Interface Implementation.
+        // It allows a class to provide separate implementations
+        // for members with the same signature from different interfaces.
+        
+      // c)
+        // No, translator.Greet() cannot be called directly after applying
+        // Explicit Interface Implementation because the methods are hidden
+        // from the class interface and are only accessible through
+        // an interface reference or by casting.
+        //
+        // Example:
+        // ((IEnglishSpeaker)translator).Greet(); // Hello
+        // ((IArabicSpeaker)translator).Greet();  // Ahlan*/
+
+
+            #endregion
+
+
             #endregion
         }
     }
